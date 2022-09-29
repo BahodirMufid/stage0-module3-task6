@@ -4,12 +4,12 @@ public class FloatTypeCasting {
 
 
     public static void main(String[] args) {
-        roundNumber(12.9f);
+        roundNumber(12.8);
     }
 
-    public static void roundNumber(float numberToBeRounded) {
+    public static void roundNumber(double numberToBeRounded) {
 
-        System.out.println(((int) numberToBeRounded));
+        System.out.println(( Math.round(numberToBeRounded)));
 
     }
 }
